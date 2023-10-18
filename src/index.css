@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.search{
+  width: 20px;
+  position: fixed;
+  padding-top: 7px;
+  margin-left: 4px;
+}
+
+.search-bar{
+  width: 40rem;
+  height: 35px;
+  padding-left: 10px;
+  outline: none;
+  position: relative;
+  
+}
+
+.notification{
+  width: 30px;
+  padding-top: 4px;
+}
+
+.cart{
+  width: 30px;
+}
+
+
+.vertical-line {
+  margin-top: 7px;
+  width: 1px; /* Adjust the width as needed */
+  height: 25px; /* Adjust the height as needed */
+  background-color: #9a9a9a; /* Line color */
+  opacity: 40%;
+}
